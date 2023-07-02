@@ -1,0 +1,32 @@
+.dropbtn{
+    background-color: orangered;
+    color: white;
+    padding: 18px;
+    border: none;
+    font-size: 17px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    background-color: rgba(128, 128, 128, 0.205);
+    width: 160px;
+    position: absolute;
+}
+.dropdown-content a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.dropdown-content a:hover{
+    background-color: rgba(128, 128, 128, 0.548);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
